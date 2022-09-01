@@ -1,0 +1,69 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header{
+    margin-left: 80px;
+    margin-top: 40px;   
+}
+
+body {
+    background-color: white;
+}
+
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+} 
+
+.input-texto {
+    margin-top: 35px;
+    color: darkslategrey;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 90px;
+    background-image: url("imagenes/word-image-3.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 300px;
+    background-color:darkslategrey; 
+    color: white;
+}
+
+.copiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+    color: darkslategrey;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar {
+    background-color: darkslategrey;
+    color:white;
+    width: 250px;
+}
+
+.desencriptar {
+    margin-left: 30px;
+    width: 250px;
+    color: darkslategrey;
+}
+
+.informacion {
+    font-size: 15px;
+    margin-top: 20px;
+}
